@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+.cabecalho-fundo {
+  background: #222222;
+}
+.cabecalho {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#logo-header {
+  width: 205px;
+  height: 52px;
+}
+#divBusca {
+  background-color: #f2e7e7;
+  width: 720px;
+  height: 35px;
+  justify-items: center;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  font-family: "Open Sans";
+  font-style: normal;
+  padding-left: 5px;
+  font-size: 26px;
+  border: none;
+  height: 32px;
+  width: 680px;
+}
+#login {
+  width: 88px;
+  height: 52px;
+}
+
+#sacola {
+  width: 88px;
+  height: 52px;
+}
+
+.menu-fundo {
+  background-color: #222222;
+}
+.menu ul {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  color: white;
+  height: 45px;
+  font-family: "Open Sans";
+  font-size: 19px;
+  display: block;
+  padding: 10px;
+}
+.menu a:link,
+.menu a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.corpo {
+  width: 870px;
+  margin: 0 auto;
+}
+
+.banner {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+#marcas {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.produtos,
+#lancamento,
+#promocoes {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+#oculos-de-grau {
+  width: 48%;
+  border-radius: 6px;
+  flex: 1;
+}
+
+#best-sellers {
+  width: 48%;
+  border-radius: 10px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.rodape {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  background: grey;
+}
+
+.divisao-rodape {
+  width: 51px;
+  flex: 1;
+  margin: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.divisao-rodape h4 {
+  padding: 24px 0 10px 0;
+}
+
+.divisao-rodape ul li {
+  list-style-type: none;
+}
+
+.pagamento {
+  width: 100%;
+}
+
+.barra-final {
+  height: 40px;
+  background: #464646;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+
+.barra-final p {
+  margin: 0 auto;
+}
+
+.cadastro-bg {
+  padding: 50px;
+}
+
+.cadastro {
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cadastro-sessao {
+  font-family: "Open Sans";
+  width: 500px;
+  background: rgb(180, 150, 180);
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+.titulo-cadastro {
+  text-align: center;
+  font-family: "Open Sans";
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.button-cadastro {
+  width: 150px;
+  border-color: rgb(190, 140, 190);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  background: rgb(190, 140, 190);
+  color: black;
+  font-size: 18px;
+  font-family: "Open Sans";
+}
+.button-cadastrado {
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  background: rgb(190, 140, 190);
+  font-size: 18px;
+  font-family: "Open Sans";
+  border-color: rgb(190, 140, 190);
+}
+
+#name,
+#email,
+#senha {
+  background-color: rgba(229, 229, 229, 0.59);
+  border-radius: 10px;
+  border: none;
+  padding: 13px;
+  margin-bottom: 50px;
+  width: 300px;
+
+}
+
+.cadastro :required {
+   outline: 0;
+}
